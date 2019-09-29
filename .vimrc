@@ -1,0 +1,23 @@
+set autoindent
+set tabstop=2 shiftwidth=2 expandtab
+set history=50
+set hlsearch
+set ignorecase
+set incsearch
+set linebreak
+set list
+set nobackup
+set noswapfile
+set nowb
+set nowrap
+set nowritebackup
+set number
+set ruler
+set scrolloff=8
+set shiftround
+set showcmd
+set sidescroll=1
+set sidescrolloff=15
+set smartcase
+set smartindent
+syntax enable
