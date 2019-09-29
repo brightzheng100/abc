@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+set -e
+
+wget -qO- http://paks.ga/k8s-profile >> ~/.profile
+wget -qO- http://paks.ga/k8s-vimrc > ~/.vimrc
+
+source ~/.profile
