@@ -16,8 +16,14 @@ alias kdf='kubectl delete -f'
 
 alias kdesc='kubectl describe'
 
-alias klogs='kubectl logs'
-
 alias kl="kubectl label"
 
+alias kccc="kubectl config current-context"
+alias kcgc="kubectl config get-contexts"
+
+alias klogs='kubectl logs'
+
+alias kexec="kubectl exec -it"
+
+# for oh-my-zsh, do something like: plugins=(git zsh-autosuggestions kubectl)
 source <(kubectl completion bash)
